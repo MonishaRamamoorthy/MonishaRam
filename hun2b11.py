@@ -1,0 +1,9 @@
+#monisha
+def rev(s): 
+  str="" 
+  for i in s: 
+    str=i+str
+  return str
+a=input().split()
+for i in a:
+  print(rev(i),end=" ")
