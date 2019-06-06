@@ -1,3 +1,3 @@
 #monisha
 x=str(input())
-print(x.count("."))
+print(len(x.split("."))
