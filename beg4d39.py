@@ -1,3 +1,3 @@
 #monisha
-a=input()
-print(max(a))
+a=map(int,input().split())
+print(int(max(a)))
